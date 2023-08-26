@@ -12,6 +12,9 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -53,7 +56,7 @@
 
     <!-- Hero Section / Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/clover.jpg" alt="Profile Photo" width="180" class="rounded-circle img-thumbnail" />
+      <img src="img/clover.jpg" alt="Profile Photo" width="180" class="rounded-circle img-thumbnail" data-aos="zoom-in" />
       <h1 class="display-4">Diana Lingga Saputri</h1>
       <p class="lead">Business Development</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -75,13 +78,13 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consequuntur architecto enim labore nemo debitis ea voluptatibus exercitationem
               nisi dolores, aliquid incidunt vitae quidem alias porro? Molestiae et velit ratione!
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo dolorum, ea rem facilis, delectus ipsum eum quaerat error nihil, alias esse
               cupiditate! Unde exercitationem maxime eligendi officia tempora sint vero, ipsam beatae libero corrupti qui architecto eius blanditiis aperiam
@@ -110,7 +113,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/projects/1.jpg" class="card-img-top" alt="project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -118,7 +121,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="50">
               <img src="img/projects/2.jpg" class="card-img-top" alt="project 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -126,7 +129,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="150">
               <img src="img/projects/3.jpg" class="card-img-top" alt="project 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -134,7 +137,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="350">
               <img src="img/projects/4.jpg" class="card-img-top" alt="project 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -142,7 +145,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
               <img src="img/projects/5.jpg" class="card-img-top" alt="project 5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -160,6 +163,70 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-down">
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="100">
+            <a href="#">
+              <img src="img/gallery/thumbnail/1.jpg" alt="pic.1" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="200">
+            <a href="#">
+              <img src="img/gallery/thumbnail/2.jpg" alt="pic.2" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="300">
+            <a href="#">
+              <img src="img/gallery/thumbnail/3.jpg" alt="pic.3" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="400">
+            <a href="#">
+              <img src="img/gallery/thumbnail/4.jpg" alt="pic.4" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="500">
+            <a href="#">
+              <img src="img/gallery/thumbnail/5.jpg" alt="pic.5" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="600">
+            <a href="#">
+              <img src="img/gallery/thumbnail/6.jpg" alt="pic.6" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="700">
+            <a href="#">
+              <img src="img/gallery/thumbnail/7.jpg" alt="pic.7" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="800">
+            <a href="#">
+              <img src="img/gallery/thumbnail/8.jpg" alt="pic.8" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="900">
+            <a href="#">
+              <img src="img/gallery/thumbnail/9.jpg" alt="pic.9" class="img-fluid" gallery-img />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="flip-left" data-aos-delay="900">
+            <a href="#">
+              <img src="img/gallery/thumbnail/10.jpg" alt="pic.10" class="img-fluid" gallery-img />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -207,6 +274,13 @@
       </p>
     </footer>
     <!-- Akhir Footer -->
+
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Akhir JS AOS -->
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
   </body>
